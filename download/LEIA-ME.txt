@@ -1,0 +1,8 @@
+EDITOR DE REELS — WINDOWS 10/11 64 BITS
+
+Baixe EditorDeReels.exe e dê dois cliques para abrir. Não é preciso instalar Python nem outros programas.
+
+Arraste seus vídeos e fotos, escolha a pasta de saída, confira a prévia e clique em Exportar lote.
+As fotos são alternadas na ordem da fila. A preservação da frase foi preparada para texto branco com contorno escuro; revise a prévia.
+
+Abertura, OCR local e exportação com áudio foram testados no executável via Wine. A validação em Windows real está pendente.
