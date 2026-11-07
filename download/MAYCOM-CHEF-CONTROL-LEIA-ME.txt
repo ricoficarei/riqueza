@@ -1,6 +1,7 @@
 MAYCOM CHEF CONTROL — WINDOWS 10/11, 64 BITS
 
-Abra MAYCOM-CHEF-CONTROL-Portable-1.0.0-x64.exe com dois cliques.
+Feche a versão anterior do aplicativo antes de abrir esta atualização.
+Abra MAYCOM-CHEF-CONTROL-Portable-1.0.1-x64.exe com dois cliques.
 O aplicativo abre em janela própria. Não é preciso instalar Python, Node,
 FFmpeg, navegador adicional nem executar comandos.
 
@@ -9,7 +10,9 @@ Para gerar vídeos novos, clique em Conectar motor de IA e configure sua
 conta fal com créditos. A geração precisa de internet e usa uma API paga.
 Os arquivos podem ser enviados e analisados localmente sem essa conexão.
 
-Envie a personagem e o vídeo de referência. Revise e aprove os arquivos,
+Envie a personagem e o vídeo de referência. Ao enviar um vídeo, aguarde a
+preparação da prévia. Se aparecer uma falha, use Tentar novamente ou selecione
+outro vídeo. Revise e aprove os arquivos,
 confirme as autorizações e clique em GENERATE VIDEO. Um vídeo da personagem
 é aceito, mas seu primeiro frame é usado como imagem de identidade.
 
