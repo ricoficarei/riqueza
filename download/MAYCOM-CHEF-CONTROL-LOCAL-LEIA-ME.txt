@@ -1,0 +1,40 @@
+MAYCOM CHEF CONTROL 1.1.0 — MODO LOCAL EXPERIMENTAL
+Windows 10/11, 64 bits
+
+Esta versão remove a conexão fal e não chama APIs pagas.
+Não existe cobrança por geração no aplicativo. O processamento usa o seu PC.
+A qualidade, a velocidade e a compatibilidade dependem do hardware.
+
+Abra MAYCOM-CHEF-CONTROL-Portable-1.1.0-x64.exe.
+A janela e as ferramentas de vídeo já acompanham este arquivo.
+O MOTOR DE IA E OS MODELOS PRECISAM SER INSTALADOS SEPARADAMENTE.
+Sem essa instalação, a geração não fica disponível.
+
+Para Radeon RX 6600 de 8 GB no Windows, a integração com ComfyUI/DirectML
+é EXPERIMENTAL. Não houve teste de geração real nessa placa nesta entrega.
+O app conecta ao ComfyUI no mesmo computador, em http://127.0.0.1:8188.
+O fluxo usa Wan VACE 1.3B, pose DWPose ONNX, texto na CPU e VAE em blocos.
+Consulte LOCAL-GRATUITO.md que acompanha a entrega para preparar o motor.
+Os modelos somam aproximadamente 15 GB, além de Python e dependências.
+Não use os modelos FP8 nessa configuração. A memória RAM também importa.
+
+Comece com 3 segundos, 20 etapas e 480p. O máximo é 5 segundos.
+O modelo gera a 16 FPS; exportar a 24/30 FPS repete ou remove quadros.
+Não há promessa de rosto idêntico, movimentos perfeitos ou qualidade de
+modelo grande. Revise mãos, rosto e anatomia antes de usar o resultado.
+
+Após iniciar o ComfyUI, clique Configurar motor local no aplicativo.
+Envie a imagem da personagem e o vídeo de referência, revise os arquivos,
+confirme as autorizações e gere. Um vídeo da personagem usa o primeiro frame.
+
+Use uma instância ComfyUI dedicada ao app: o cancelamento em execução pode
+interromper a tarefa ativa nesse serviço. Fechar o app não necessariamente
+encerra o ComfyUI separado. Confira a janela dele antes de iniciar outra tarefa.
+
+Arquivos e histórico do app ficam em %LOCALAPPDATA%\MAYCOMCHEFCONTROL.
+O ComfyUI também guarda cópias de entradas e resultados em input/ e output/.
+Excluir no app não apaga essas cópias: exclua-as no ComfyUI quando desejar.
+
+A versão anterior não é atualizada automaticamente. Feche-a antes de abrir
+esta versão. Nenhuma chave fal antiga é carregada ou usada nesta versão.
+O executável não possui assinatura digital comercial.

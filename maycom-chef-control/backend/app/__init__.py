@@ -1,0 +1,1 @@
+"""MAYCOM CHEF CONTROL backend."""

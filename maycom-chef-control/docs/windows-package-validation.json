@@ -1,0 +1,92 @@
+{
+  "app_name": "MAYCOM CHEF CONTROL",
+  "passed": true,
+  "frozen": true,
+  "platform": "win32",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "private_api_requires_session",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_cookie_and_bundled_frontend",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_nonce_is_single_use",
+      "passed": true
+    },
+    {
+      "name": "desktop_mode_and_review_ready",
+      "passed": true
+    },
+    {
+      "name": "unconfigured_provider_is_visible",
+      "passed": true
+    },
+    {
+      "name": "desktop_settings_form_applies",
+      "passed": true
+    },
+    {
+      "name": "provider_key_remains_session_only_when_dpapi_unavailable",
+      "passed": true
+    },
+    {
+      "name": "desktop_settings_form_clears",
+      "passed": true
+    },
+    {
+      "name": "bundled_ffmpeg_creates_real_test_media",
+      "passed": true
+    },
+    {
+      "name": "character_upload_and_content_validation",
+      "passed": true
+    },
+    {
+      "name": "character_preview_served_privately",
+      "passed": true
+    },
+    {
+      "name": "character_desktop_owner_review",
+      "passed": true
+    },
+    {
+      "name": "reference_upload_and_content_validation",
+      "passed": true
+    },
+    {
+      "name": "bundled_ffprobe_and_opencv_analysis",
+      "passed": true
+    },
+    {
+      "name": "reference_preview_served_privately",
+      "passed": true
+    },
+    {
+      "name": "reference_desktop_owner_review",
+      "passed": true
+    },
+    {
+      "name": "missing_provider_does_not_fake_generation",
+      "passed": true
+    },
+    {
+      "name": "character_delete",
+      "passed": true
+    },
+    {
+      "name": "reference_delete",
+      "passed": true
+    },
+    {
+      "name": "no_paid_or_simulated_jobs_created",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "DPAPI não estava disponível nesta execução Windows/Wine. A chave de teste permaneceu somente em memória; a persistência criptografada em Windows real não foi validada."
+  ]
+}

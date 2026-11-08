@@ -1,0 +1,104 @@
+{
+  "app_name": "MAYCOM CHEF CONTROL",
+  "passed": true,
+  "frozen": true,
+  "platform": "win32",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "private_api_requires_session",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_cookie_and_bundled_frontend",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_nonce_is_single_use",
+      "passed": true
+    },
+    {
+      "name": "desktop_mode_and_review_ready",
+      "passed": true
+    },
+    {
+      "name": "only_free_local_engine_is_exposed",
+      "passed": true
+    },
+    {
+      "name": "unavailable_local_engine_is_visible",
+      "passed": true
+    },
+    {
+      "name": "local_settings_form_saves_without_model_inference",
+      "passed": true
+    },
+    {
+      "name": "local_settings_file_contains_only_loopback_url",
+      "passed": true
+    },
+    {
+      "name": "paid_settings_get_removed",
+      "passed": true
+    },
+    {
+      "name": "paid_settings_put_removed",
+      "passed": true
+    },
+    {
+      "name": "paid_settings_delete_removed",
+      "passed": true
+    },
+    {
+      "name": "bundled_ffmpeg_creates_real_test_media",
+      "passed": true
+    },
+    {
+      "name": "character_upload_and_content_validation",
+      "passed": true
+    },
+    {
+      "name": "character_preview_served_privately",
+      "passed": true
+    },
+    {
+      "name": "character_desktop_owner_review",
+      "passed": true
+    },
+    {
+      "name": "reference_upload_and_content_validation",
+      "passed": true
+    },
+    {
+      "name": "bundled_ffprobe_and_opencv_analysis",
+      "passed": true
+    },
+    {
+      "name": "reference_preview_served_privately",
+      "passed": true
+    },
+    {
+      "name": "reference_desktop_owner_review",
+      "passed": true
+    },
+    {
+      "name": "missing_local_engine_does_not_fake_generation",
+      "passed": true
+    },
+    {
+      "name": "character_delete",
+      "passed": true
+    },
+    {
+      "name": "reference_delete",
+      "passed": true
+    },
+    {
+      "name": "no_paid_or_simulated_jobs_created",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Nenhum modelo de IA foi executado. A geração com VACE/DirectML, a compatibilidade da RX 6600 e a qualidade visual continuam pendentes de validação no computador do usuário."
+  ]
+}

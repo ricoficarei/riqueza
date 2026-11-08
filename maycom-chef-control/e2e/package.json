@@ -1,0 +1,7 @@
+{
+  "name": "maycom-chef-control-browser-tests",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": { "test": "node smoke.cjs" },
+  "devDependencies": { "playwright": "1.62.1" }
+}

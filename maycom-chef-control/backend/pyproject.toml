@@ -1,0 +1,25 @@
+[project]
+name = "maycom-chef-control"
+version = "0.1.0"
+description = "MAYCOM CHEF CONTROL: motion transfer studio and durable generation queue"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "python-multipart>=0.0.20,<1",
+  "httpx>=0.28,<1",
+  "pillow>=11,<13",
+  "numpy>=2.2,<3; sys_platform != 'win32'",
+  "numpy==1.26.4; sys_platform == 'win32'",
+  "opencv-python-headless>=4.11,<5; sys_platform != 'win32'",
+  "opencv-python-headless==4.11.0.86; sys_platform == 'win32'",
+  "fal-client==1.0.3",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.25,<2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "app/providers/tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

@@ -1,0 +1,18 @@
+{
+  "name": "maycom-chef-control-desktop",
+  "productName": "MAYCOM CHEF CONTROL",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Aplicativo portátil MAYCOM CHEF CONTROL para Windows",
+  "author": "MAYCOM CHEF CONTROL",
+  "main": "main.cjs",
+  "scripts": {
+    "test": "node test/security.test.cjs",
+    "start": "electron .",
+    "build:windows": "node scripts/build-windows.cjs"
+  },
+  "devDependencies": {
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0"
+  }
+}
